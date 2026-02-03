@@ -1,6 +1,7 @@
 ---
 title: "Java Job Scheduler Comparison: Quartz vs JobRunr vs Spring vs db-scheduler"
 description: "Compare Java job scheduling libraries side by side. Features, performance, ease of use, and when to use each. Updated for 2026."
+keywords: ["java scheduler comparison", "quartz vs jobrunr", "java job scheduler", "best java scheduler", "spring scheduler vs quartz", "db-scheduler vs jobrunr"]
 skip_meta: true
 ---
 

@@ -1,6 +1,7 @@
 ---
 title: "Migrate to JobRunr: Step by Step Guides"
 description: "Migration guides from Quartz, Spring @Scheduled, Hangfire, and custom schedulers to JobRunr. Make the switch in hours, not weeks."
+keywords: ["migrate from quartz", "quartz to jobrunr", "spring scheduled migration", "hangfire java alternative", "replace quartz scheduler"]
 skip_meta: true
 ---
 
