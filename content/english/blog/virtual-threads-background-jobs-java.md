@@ -12,11 +12,11 @@ tags:
   - performance
 ---
 
-Java 21 brought virtual threads. If you're running background jobs, this matters.
+Java 21 introduced virtual threads, and we've been getting a lot of questions about them. Should you use them for background jobs? Will they make your jobs faster?
 
-Virtual threads let you process thousands of concurrent jobs with a fraction of the resources. But they're not magic. Use them wrong and you'll make things worse.
+The short answer: it depends. Virtual threads can give you 10x throughput on I/O heavy workloads. But use them wrong and you might actually make things slower.
 
-This guide covers what you need to know.
+We've spent months testing virtual threads with JobRunr across different workload types. Here's what we learned.
 
 ## What Virtual Threads Actually Are
 
@@ -38,7 +38,7 @@ The key insight: virtual threads only consume an OS thread while doing CPU work.
 
 ## Why This Matters for Background Jobs
 
-Background jobs are typically I/O bound. Think about what most jobs do:
+Here's the thing: most background jobs spend their time waiting. Think about what typical jobs actually do:
 
 - Query a database
 - Call an external API

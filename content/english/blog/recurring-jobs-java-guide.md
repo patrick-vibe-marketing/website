@@ -12,15 +12,11 @@ tags:
   - tutorial
 ---
 
-You need a job to run every day at 9am. Or every hour. Or every Monday. Simple requirement, right?
+"I just need a job to run every day at 9am. How hard can it be?"
 
-Then you deploy to production and discover:
-- The job runs twice because you have two servers
-- It skips runs when the app restarts during scheduled time
-- Daylight saving time breaks your schedule
-- You have no idea if it actually ran
+Famous last words. We've heard this from countless developers right before they spend two weeks debugging why their daily report runs twice, or doesn't run at all when the server restarts at 8:59am, or mysteriously breaks every time daylight saving time kicks in.
 
-Recurring jobs are simple in theory, complex in practice. Let's fix that.
+Recurring jobs are one of those things that seem trivial until you try to run them reliably in production. Let's talk about what actually works.
 
 ## The Problem With Simple Solutions
 

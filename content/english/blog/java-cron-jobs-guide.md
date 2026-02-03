@@ -12,9 +12,9 @@ tags:
   - tutorial
 ---
 
-You need to run code on a schedule in Java. Every hour, every day at midnight, every Monday at 9am. This is what cron jobs do.
+Running code on a schedule is one of those things that sounds simple until you actually try to do it right. Every hour, every day at midnight, every Monday at 9am. In Linux you'd just add a line to crontab and forget about it.
 
-In Linux, you'd add a line to crontab. In Java, you have options. Let's go through them.
+In Java, you have more options than you probably want. Some are built into the language, some come from frameworks, and some actually work in production. We'll walk through all of them so you can pick the right one for your situation.
 
 ## The Basics: What is a Cron Expression?
 

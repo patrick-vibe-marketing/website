@@ -11,11 +11,11 @@ tags:
   - job scheduling
 ---
 
-You have a Java application. It needs to run background jobs. Now you're scaling to multiple instances. Suddenly, job scheduling gets complicated.
+We talk to a lot of Java teams who hit the same wall: they start with a single server, background jobs work great, then they scale to multiple instances and everything falls apart.
 
-How do you make sure a job runs exactly once when you have 10 servers? How do you handle a server dying mid-job? How do you balance load across your cluster?
+Jobs run twice. Jobs get lost when servers restart. There's no way to see what's happening. Sound familiar?
 
-This is distributed job scheduling. Let's break it down.
+This is the distributed job scheduling problem, and we've seen dozens of teams try to solve it themselves before giving up. Here's why it's harder than it looks, and what actually works.
 
 ## The Problem
 
@@ -33,7 +33,7 @@ Add a second server and everything breaks.
 
 ## DIY Approaches (And Why They Fail)
 
-Most teams try to build their own solution first. Here's what that usually looks like.
+Almost every team tries to build their own solution first. We did too, back in the day. It always starts the same way.
 
 ### Approach 1: Database Locking
 
