@@ -583,6 +583,40 @@ Not supported. You'd need a workaround with a database table and polling.
 
 ---
 
+## FAQ
+
+<details>
+<summary><strong>Which Java scheduler is best for microservices?</strong></summary>
+
+JobRunr or db-scheduler. Both handle distributed execution well and use your existing database. JobRunr offers more features (dashboard, workflows); db-scheduler is more minimal. Spring @Scheduled should be avoided in microservices since it will execute jobs on every instance.
+</details>
+
+<details>
+<summary><strong>Can I run Quartz and JobRunr together?</strong></summary>
+
+Yes. Many teams migrate gradually by running both during a transition period. JobRunr can use a different set of database tables than Quartz, so there's no conflict.
+</details>
+
+<details>
+<summary><strong>What's the difference between JobRunr OSS and Pro?</strong></summary>
+
+JobRunr OSS includes: fire-and-forget jobs, scheduled jobs, recurring jobs (up to 100), dashboard, and distributed processing. JobRunr Pro adds: priority queues, batches, job chaining, rate limiting, dashboard SSO, and commercial support. See the [full comparison](/en/pricing/).
+</details>
+
+<details>
+<summary><strong>Does JobRunr work with Kubernetes?</strong></summary>
+
+Yes. JobRunr is designed for horizontally scaled environments. It uses optimistic locking to ensure each job runs exactly once, regardless of how many pods/instances you have. No special Kubernetes configuration needed.
+</details>
+
+<details>
+<summary><strong>Which scheduler has the best performance?</strong></summary>
+
+For throughput: JobRunr with virtual threads (JDK 21+) can handle thousands of concurrent I/O-bound jobs. For minimal overhead: db-scheduler uses a single database table. Quartz has the highest setup overhead but comparable runtime performance.
+</details>
+
+---
+
 ## Migration Guides
 
 Moving from one scheduler to another? We've got you covered:
