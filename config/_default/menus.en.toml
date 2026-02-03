@@ -35,6 +35,16 @@ weight = 3
 
 # footer menu left
 [[footer_01]]
+name = "Cron Generator"
+url = "/tools/cron-expression-generator/"
+weight = 1
+
+[[footer_01]]
+name = "Compare Schedulers"
+url = "/java-scheduler-comparison/"
+weight = 2
+
+[[footer_01]]
 name = "Our License Model"
 url = "/understanding-your-license/"
 weight = 3
