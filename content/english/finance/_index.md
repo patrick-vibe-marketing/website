@@ -1,14 +1,14 @@
 ---
-title: "JobRunr for Finance | Reliable, DORA-Compliant Job Scheduling"
-description: "Modernize financial operations with JobRunr. From legacy batch processing on the mainframe to cloud-native microservices."
+title: "JobRunr for Finance | Reliable, DORA Compliant Job Scheduling"
+description: "Modernize financial operations with JobRunr. From legacy batch processing on the mainframe to modern cloud microservices."
 subtitle: "Finance Solutions"
 layout: "finance"
 
 hero:
   badge: "Trusted by Global Financial Institutions"
-  title_start: "In finance, a dropped job isn't a bug—"
-  title_highlight: "it's a compliance violation"
-  description: "Critical financial processes require enterprise-grade reliability. JobRunr Pro delivers it."
+  title_start: "In finance, a dropped job isn't a bug."
+  title_highlight: "It's a compliance violation."
+  description: "Critical financial processes require enterprise reliability. JobRunr Pro delivers it."
 
 button:
     get_started:
@@ -45,9 +45,9 @@ challenges_section:
     - title: "Regulators are watching"
       description: "DORA and other regulations require strict vendor due diligence and operational resilience. You cannot rely on unproven tools."
     - title: "Scale without breaking"
-      description: "Processing 50 million+ customer records or handling 100,000 urgent bulk payments without latency requires enterprise-grade architecture."
+      description: "Processing 50 million+ customer records or handling 100,000 urgent bulk payments without latency requires enterprise architecture."
     - title: "Mainframes are expensive"
-      description: "Legacy processing costs add up. With JobRunr you can auto-scale and even run batch jobs when electricity is cheaper."
+      description: "Legacy processing costs add up. With JobRunr you can scale automatically and even run batch jobs when electricity is cheaper."
 
 
 security_section:
@@ -76,7 +76,7 @@ use_cases_section:
         - "<strong><a class='dashed-underline' href='https://www.jobrunr.io/en/documentation/pro/job-chaining/'>Workflows</a>:</strong>&nbsp;Job chains that maintain data integrity."
     - title: "Urgent payments can't wait"
       used_by: "Veefin Solutions"
-      challenge: "Corporate transfers stuck behind low-priority logging tasks."
+      challenge: "Corporate transfers stuck behind less urgent logging tasks."
       solution_points:
         - "<strong>Unlimited <a href='https://www.jobrunr.io/en/documentation/pro/priority-queues/'>Priority Queues</a>:&nbsp;</strong> Critical jobs bypass the line."
         - "<strong><a href='https://www.jobrunr.io/en/guides/advanced/k8s-autoscaling/'>Dynamic Scaling:&nbsp;</a></strong> Workers scale up proactively during busy periods."
@@ -84,11 +84,11 @@ use_cases_section:
       used_by: "CHECK24, One Savings Bank"
       challenge: "Distributed instances across data centers with no single source of truth."
       solution_points:
-        - "<strong><a href='https://www.jobrunr.io/en/documentation/pro/jobrunr-pro-multi-dashboard/'>Multi-Cluster Dashboard</a>:</strong>&nbsp;Visibility into all your clusters on one dashboard."
+        - "<strong><a href='https://www.jobrunr.io/en/documentation/pro/jobrunr-pro-multi-dashboard/'>Multicluster Dashboard</a>:</strong>&nbsp;Visibility into all your clusters on one dashboard."
         - "<strong><a href='https://www.jobrunr.io/en/documentation/pro/sso-authentication/'>Single Sign-On</a>:</strong>&nbsp;Secure your dashboard and limit access to your clusters"
     - title: "One client's load crushes everyone else"
       used_by: "PureFacts Financial Solutions"
-      challenge: "Multi-tenant systems where one heavy client degrades performance for others."
+      challenge: "Multitenant systems where one heavy client degrades performance for others."
       solution_points:
         - "<strong><a href='https://www.jobrunr.io/en/documentation/pro/dynamic-queues/'>Dynamic Queues</a>:</strong>&nbsp;Jobs isolated by tenant."
         - "<strong>Fairness:</strong>&nbsp;One heavy user never degrades performance for others."
@@ -119,9 +119,9 @@ comparison_table:
     - feature: "Dashboard SSO"
       benefit: "Seamless and secure access control for large internal teams."
     - feature: "Job Deduplication"
-      benefit: "Prevent duplicate background tasks, critical for avoiding double-processing transactions."
+      benefit: "Prevent duplicate background tasks, critical for avoiding processing transactions twice."
     - feature: "SmartQueue"
-      benefit: "Significantly faster throughput for short-running tasks like fraud checks or KYC notifications."
+      benefit: "Significantly faster throughput for quick tasks like fraud checks or KYC notifications."
     - feature: "Carbon Aware Scheduling"
       benefit: "Meet your finance insititution's ESG goals by automatically running heavy batch reports when the grid is green."
 
@@ -131,11 +131,11 @@ accordion:
   description: "Details on compliance, security, and architecture."
   list:
     - title: "How does JobRunr help with DORA compliance?"
-      description: "JobRunr Pro Enterprise includes a comprehensive DORA readiness agreement, vendor due diligence packs, and operational resilience features like the Panic Button and Multi-Cluster dashboards to ensure you meet regulatory reporting and stability requirements."
-    - title: "Can we run JobRunr in an air-gapped environment?"
+      description: "JobRunr Pro Enterprise includes a comprehensive DORA readiness agreement, vendor due diligence packs, and operational resilience features like the Panic Button and Multicluster dashboards to ensure you meet regulatory reporting and stability requirements."
+    - title: "Can we run JobRunr in an isolated environment?"
       description: "Yes. JobRunr is a library that runs within your JVM. It does not require internet access to function and does not send data to external cloud services. You have full control over your data and infrastructure."
-    - title: "How does the Multi-Cluster Dashboard work across data centers?"
-      description: "The Multi-Cluster Dashboard aggregates data from JobRunr instances running in different regions or environments (e.g., on-prem and cloud). It provides a single-pane-of-glass view for your Ops team without requiring data to leave your secure internal networks."
+    - title: "How does the Multicluster Dashboard work across data centers?"
+      description: "The Multicluster Dashboard aggregates data from JobRunr instances running in different regions or environments (e.g., on premises and cloud). It provides a unified view for your Ops team without requiring data to leave your secure internal networks."
     - title: "Do you support strict data isolation for multi-tenant systems?"
       description: "Yes. JobRunr Pro supports Dynamic Queues and custom tenant tagging. This allows you to isolate processing power per tenant (e.g., ensuring one heavy banking client doesn't slow down others) while maintaining a single codebase."
 ---

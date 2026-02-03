@@ -341,6 +341,27 @@
             </div>
           {{ end }}
 
+          {{ with .Params.how_it_works }}
+          <div class="row mt-20 mb-14" data-aos="fade-up-sm">
+            <div class="col-12 text-center mb-12">
+              <h2 class="h3">{{ .title | markdownify }}</h2>
+            </div>
+            <div class="col-12">
+              <div class="flex flex-col md:flex-row justify-center gap-8 md:gap-12">
+                {{ range .steps }}
+                <div class="flex-1 max-w-xs text-center">
+                  <div class="mb-4 mx-auto flex h-16 w-16 items-center justify-center rounded-full bg-tertiary text-white text-2xl font-bold">
+                    {{ .number }}
+                  </div>
+                  <h4 class="h5 mb-2">{{ .title | markdownify }}</h4>
+                  <p class="text-gray-600">{{ .description | markdownify }}</p>
+                </div>
+                {{ end }}
+              </div>
+            </div>
+          </div>
+          {{ end }}
+
         </div>
       </div>
     </div>

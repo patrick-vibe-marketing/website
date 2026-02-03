@@ -1,8 +1,8 @@
 ---
 title: "Stop losing critical jobs in production."
 subtitle: "JobRunr Pro"
-target_audience: "Built for enterprise Java teams who can't afford dropped jobs, missed SLAs, or fragile in-house schedulers."
-description: "JobRunr Pro gives you priority queues, workflow management, and a powerful dashboard—so you can stop firefighting and start shipping."
+target_audience: "Built for teams where jobs can't fail."
+description: "JobRunr Pro gives you priority queues, workflow management, and a powerful dashboard. Stop firefighting. Start shipping."
 button:
     get_started:
       enable: true
@@ -18,9 +18,9 @@ first_feature:
   title: "1. Never let urgent jobs wait in line"
   image: "/images/pro-features/queues.webp"
   list:
-    - item: "Use up to 5 priority queues to process high-priority jobs, like payments or notifications, immediately."
+    - item: "Use up to 5 priority queues to process urgent jobs like payments or notifications immediately."
     - item: "Create dynamic queues to balance load or separate jobs for different tenants."
-    - item: "Run unlimited recurring jobs to handle enterprise-scale workloads without hitting a cap."
+    - item: "Run unlimited recurring jobs to handle large scale workloads without hitting a cap."
   button:
     enable: true
     label: "Explore All Pro Features"
@@ -39,21 +39,21 @@ second_feature:
 
 third_feature:
   title: "3. See every job across every cluster"
-  description: "Go beyond a single dashboard. JobRunr Pro gives you a central view of all your clusters and fine-grained control to protect your systems."
+  description: "Go beyond a single dashboard. JobRunr Pro gives you a central view of all your clusters and precise control to protect your systems."
   image: "/images/pro-features/multi-cluster-dashboard-filter.gif"
   sub_feature:
-    - title: "Multi-Cluster Dashboard"
+    - title: "Multicluster Dashboard"
       description: "Monitor all your JobRunr clusters, whether in the EU, US, or staging, from a single unified dashboard."
       icon: "fa-solid fa-globe"
     - title: "Runtime Rate Limiting"
       description: "Protect external APIs and services by setting rate limits on specific jobs to prevent overloads."
       icon: "fa-solid fa-shield-halved"
 forth_feature:
-  title: "4. Let support solve issues—without escalating to engineering"
+  title: "4. Let support solve issues without escalating to engineering"
   image: "/images/pro-features/queues.webp"
   list:
-    - item: "The Pro dashboard gives your team full visibility with advanced filters, job history, and one-click retries."
-    - item: "Your support team resolves 80% of job issues without paging developers."
+    - item: "The Pro dashboard gives your team full visibility with advanced filters, job history, and retries with a single click."
+    - item: "When a job fails, your support team can diagnose and retry it themselves. No developer needed."
   button:
     enable: false
     label: ""
@@ -62,11 +62,24 @@ fifth_feature:
   title: "5. Pass security audits without stress"
   image: "/images/pro-features/queues.webp"
   list:
-    - item: "Secure your dashboard with Single Sign-On (SSO) integration for centralized user management."
+    - item: "Secure your dashboard with SSO integration for centralized user management."
     - item: "Meet enterprise security standards and support your GDPR and HIPAA compliance needs."
-    - item: "Your data never leaves your infrastructure—JobRunr runs inside your JVM with no external dependencies."
+    - item: "Your data never leaves your infrastructure. JobRunr runs inside your JVM with no external dependencies."
   button:
     enable: true
     label: "Start your free trial"
     link: "try-jobrunr-pro"
+
+how_it_works:
+  title: "Three steps. That's it."
+  steps:
+    - number: "1"
+      title: "Add JobRunr Pro to your build"
+      description: "One line in your Maven or Gradle config."
+    - number: "2"
+      title: "Drop in your license key"
+      description: "Add it to your application properties."
+    - number: "3"
+      title: "Deploy"
+      description: "Your existing jobs keep working. Nothing to rewrite."
 ---
