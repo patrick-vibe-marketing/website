@@ -1,6 +1,7 @@
 ---
 title: "Java Cron Jobs: From Basic Scheduling to Production Grade Solutions"
 description: "Learn how to schedule recurring tasks in Java. Compare ScheduledExecutorService, Spring @Scheduled, Quartz cron triggers, and modern alternatives that actually scale."
+keywords: ["java cron", "cron job java", "java cron expression", "java crontab", "java scheduled task", "cronjob java"]
 image: /blog/java-cron-jobs.webp
 date: 2026-02-03T11:00:00+02:00
 author: "Nicholas D'hondt"

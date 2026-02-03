@@ -1,6 +1,7 @@
 ---
 title: "Recurring Jobs in Java: Schedules That Actually Work"
 description: "How to implement reliable recurring jobs in Java. Cron expressions, missed job handling, timezone support, and distributed scheduling that doesn't run twice."
+keywords: ["recurring job java", "recurring jobs", "java scheduled task", "cron job java", "java periodic task"]
 image: /blog/recurring-jobs-java.webp
 date: 2026-02-03T13:00:00+02:00
 author: "Nicholas D'hondt"

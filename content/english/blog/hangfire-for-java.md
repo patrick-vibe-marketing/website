@@ -1,6 +1,7 @@
 ---
 title: "Hangfire for Java: Why JobRunr is What .NET Developers Are Looking For"
 description: "If you're a .NET developer moving to Java or looking for Hangfire's equivalent in the Java ecosystem, JobRunr offers the same developer experience with even more features."
+keywords: ["hangfire java", "hangfire alternative java", "background jobs java", "dotnet to java migration", "jobrunr vs hangfire"]
 image: /blog/hangfire-for-java.webp
 date: 2026-02-03T09:00:00+02:00
 author: "Nicholas D'hondt"

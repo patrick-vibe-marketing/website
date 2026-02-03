@@ -1,6 +1,7 @@
 ---
 title: "Distributed Job Scheduling in Java: A Complete Guide"
 description: "Learn how to implement distributed job scheduling in Java applications. Compare approaches, understand the tradeoffs, and see why modern solutions beat homegrown implementations."
+keywords: ["distributed job scheduler java", "distributed job scheduler", "distributed job scheduler open source", "java cluster job scheduling", "distributed task scheduler"]
 image: /blog/distributed-job-scheduling.webp
 date: 2026-02-03T10:00:00+02:00
 author: "Nicholas D'hondt"
