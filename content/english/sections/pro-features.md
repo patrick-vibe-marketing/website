@@ -1,18 +1,21 @@
 ---
-title: "Turn a critical task into a competitive advantage."
+title: "Stop losing critical jobs in production."
 subtitle: "JobRunr Pro"
-description: "With JobRunr Pro's proven scalability and enterprise features, you can free your team from maintaining fragile, in-house job schedulers and focus on what truly matters."
+target_audience: "Built for enterprise Java teams who can't afford dropped jobs, missed SLAs, or fragile in-house schedulers."
+description: "JobRunr Pro gives you priority queues, workflow management, and a powerful dashboard—so you can stop firefighting and start shipping."
 button:
     get_started:
       enable: true
-      label: "Try JobRunr Pro for free"
+      label: "Start your free trial"
       link: "try-jobrunr-pro"
     learn_more:
-      enable: false
-      label: "Explore an interative demo"
-      link: "pricing"
+      enable: true
+      label: "See it in action"
+      link: "#demo-section"
+features_intro:
+  title: "5 reasons enterprise teams choose JobRunr Pro"
 first_feature:
-  title: "Ensure your critical jobs run first."
+  title: "1. Never let urgent jobs wait in line"
   image: "/images/pro-features/queues.webp"
   list:
     - item: "Use up to 5 priority queues to process high-priority jobs, like payments or notifications, immediately."
@@ -23,8 +26,8 @@ first_feature:
     label: "Explore All Pro Features"
     link: "#comparison-table"
 second_feature:
-  title: "Build resilient, complex workflows."
-  description: "Stop building fragile scripts. JobRunr Pro lets you create powerful workflows, atomic batches, and job chains to automate complex business logic with smart failure handling."
+  title: "2. Stop building fragile scripts"
+  description: "JobRunr Pro lets you create powerful workflows, atomic batches, and job chains to automate complex business logic with smart failure handling."
   image: "/images/pro-features/jobrunr-pro-batch.webp"
   sub_feature:
     - title: "Job Chaining"
@@ -35,7 +38,7 @@ second_feature:
       icon: "fa-solid fa-boxes-stacked"
 
 third_feature:
-  title: "Get complete visibility and control."
+  title: "3. See every job across every cluster"
   description: "Go beyond a single dashboard. JobRunr Pro gives you a central view of all your clusters and fine-grained control to protect your systems."
   image: "/images/pro-features/multi-cluster-dashboard-filter.gif"
   sub_feature:
@@ -46,13 +49,24 @@ third_feature:
       description: "Protect external APIs and services by setting rate limits on specific jobs to prevent overloads."
       icon: "fa-solid fa-shield-halved"
 forth_feature:
-  title: "Integrate enterprise-grade security."
+  title: "4. Let support solve issues—without escalating to engineering"
+  image: "/images/pro-features/queues.webp"
+  list:
+    - item: "The Pro dashboard gives your team full visibility with advanced filters, job history, and one-click retries."
+    - item: "Your support team resolves 80% of job issues without paging developers."
+  button:
+    enable: false
+    label: ""
+    link: ""
+fifth_feature:
+  title: "5. Pass security audits without stress"
   image: "/images/pro-features/queues.webp"
   list:
     - item: "Secure your dashboard with Single Sign-On (SSO) integration for centralized user management."
     - item: "Meet enterprise security standards and support your GDPR and HIPAA compliance needs."
+    - item: "Your data never leaves your infrastructure—JobRunr runs inside your JVM with no external dependencies."
   button:
     enable: true
-    label: "Try JobRunr Pro for free"
+    label: "Start your free trial"
     link: "try-jobrunr-pro"
 ---

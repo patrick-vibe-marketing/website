@@ -17,6 +17,8 @@ list:
     description: "JobRunr integrates natively with Spring Boot, Micronaut, and Quarkus. Our @Transactional plugin ensures your jobs are created reliably from within your existing database transactions."
   - title: "Is JobRunr Pro ready for enterprise or regulated environments?"
     description: "Yes. Pro is built for this. It includes features like Single Sign-On (SSO) for dashboard access, audit trails, and support to help you meet your GDPR and HIPAA compliance requirements."
+  - title: "Does JobRunr send my data to external services?"
+    description: "No. JobRunr is a library that runs entirely inside your JVM. It does not require internet access to function, does not phone home, and does not send any data to external cloud services. You have full control over your data and infrastructure."
   - title: "How can I convince my manager to buy Pro?"
     description: "We can help. We prepared an email with 5 clear reasons that frame Pro as an investment that saves development time, reduces infrastructure costs, and lowers production risk. [You can find the email template here.](/en/convince-your-boss)"
   - title: "We are a startup or non-profit. Do you have special pricing?"

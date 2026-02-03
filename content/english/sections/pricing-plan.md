@@ -67,7 +67,11 @@ enterprise_plan:
     - item: "Priority feature requests"
   button:
     enable: true
-    label: "Contact Sales"
+    label: "Start a Free Trial"
+    link: "en/pro"
+  button_secondary:
+    enable: true
+    label: "Talk to a JobRunr expert"
     link: "en/get-jobrunr-pro-enterprise"
   currency_usd: ""
   monthly_price_usd: "On-Demand"
