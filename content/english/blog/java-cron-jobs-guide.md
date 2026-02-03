@@ -409,4 +409,6 @@ Consider [migrating to JobRunr](/en/blog/2023-02-20-moving-from-quartz-scheduler
 
 ---
 
+*Build cron expressions visually with our [Cron Expression Generator](/en/tools/cron-expression-generator/).*
+
 *Need more than recurring jobs? JobRunr also handles [fire and forget](/en/documentation/background-methods/enqueueing-jobs/), [delayed jobs](/en/documentation/background-methods/scheduling-jobs/), and [job workflows](/en/documentation/pro/job-chaining/).*

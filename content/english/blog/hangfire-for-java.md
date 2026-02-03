@@ -222,4 +222,6 @@ Welcome to Java. Your background jobs are in good hands.
 
 ---
 
+*See how JobRunr compares to other Java schedulers in our [Java Scheduler Comparison](/en/java-scheduler-comparison/).*
+
 *Looking for help migrating from .NET to Java? [Talk to us](/en/contact/) about your project.*

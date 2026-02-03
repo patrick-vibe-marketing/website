@@ -356,4 +356,6 @@ You'll have production grade distributed job scheduling in an afternoon.
 
 ---
 
+*See how JobRunr compares to Quartz, Spring, and db-scheduler in our [Java Scheduler Comparison](/en/java-scheduler-comparison/).*
+
 *Processing millions of jobs? [JobRunr Pro](/en/pro/) adds priority queues, rate limiting, and multicluster support for enterprise scale.*
